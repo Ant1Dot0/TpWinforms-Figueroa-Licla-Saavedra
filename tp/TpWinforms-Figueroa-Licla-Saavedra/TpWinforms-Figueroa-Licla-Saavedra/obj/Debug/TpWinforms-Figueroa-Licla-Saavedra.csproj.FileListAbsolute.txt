@@ -1,0 +1,11 @@
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.AssemblyReference.cache
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.OrganizART.resources
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.Properties.Resources.resources
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.GenerateResource.cache
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.CoreCompileInputs.cache
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe.config
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+C:\Users\figue\Desktop\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.ListadoDeArticulos.resources

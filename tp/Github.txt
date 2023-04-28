@@ -1,0 +1,18 @@
+BAJAR NUEVO REPOSITORIO
+git init
+git remote add origin https://github.com/Ant1Dot0/tpWinforms-Figueroa-Licla-Saavedra.git
+git branch -M main
+git pull origin main
+
+HACER COMMIT
+git add .
+git commit -m "mensaje de prueba"
+git push origin main
+
+BAJAR CAMBIOS
+git add .
+git commit -m "mensaje de prueba"
+git pull origin main
+
+CAMBIAR RAMA A USAR 
+git branch -M NombreDeLaRama
