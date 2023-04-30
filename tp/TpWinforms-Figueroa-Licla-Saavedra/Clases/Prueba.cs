@@ -8,6 +8,6 @@ namespace Clases
 {
     class Prueba
     {
-        public int Pruebaa { get; set; }
+        public int Pruebaa2 { get; set; }
     }
 }
