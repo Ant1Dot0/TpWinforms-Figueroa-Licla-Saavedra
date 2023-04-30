@@ -23,5 +23,6 @@ namespace Clases
         public string ImagenURL { get; set; }
 
         public decimal Precio { get; set; }
+
     }
 }
