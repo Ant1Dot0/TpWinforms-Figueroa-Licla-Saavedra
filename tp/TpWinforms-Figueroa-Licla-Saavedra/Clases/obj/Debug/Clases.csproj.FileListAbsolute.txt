@@ -1,0 +1,6 @@
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\bin\Debug\Clases.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\bin\Debug\Clases.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.pdb

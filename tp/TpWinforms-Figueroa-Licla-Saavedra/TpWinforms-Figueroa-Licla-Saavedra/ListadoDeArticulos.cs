@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Conexiones;
 
 namespace TpWinforms_Figueroa_Licla_Saavedra
 {
@@ -15,6 +16,11 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
         public ListadoDeArticulos()
         {
             InitializeComponent();
+        }
+
+        private void ListadoDeArticulos_Load(object sender, EventArgs e)
+        {
+            DgvArticulos.DataSource = new ArticuloNegocio().Listar();
         }
     }
 }
