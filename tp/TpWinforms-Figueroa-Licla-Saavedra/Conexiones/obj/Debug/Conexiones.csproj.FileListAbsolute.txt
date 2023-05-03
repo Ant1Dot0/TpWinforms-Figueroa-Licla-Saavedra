@@ -7,3 +7,12 @@ C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinfor
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.csproj.CopyComplete
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.dll
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.pdb
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\bin\Debug\Conexiones.dll
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\bin\Debug\Conexiones.pdb
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\bin\Debug\Clases.dll
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\bin\Debug\Clases.pdb
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.csproj.AssemblyReference.cache
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.csproj.CopyComplete
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.dll
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\Conexiones\obj\Debug\Conexiones.pdb
