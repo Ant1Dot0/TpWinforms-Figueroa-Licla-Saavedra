@@ -28,5 +28,23 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             CargaDeArticulos FormCarga = new CargaDeArticulos();
             FormCarga.ShowDialog();
         }
+
+        private void agregarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AgregarArticulo FormAgregar = new AgregarArticulo();
+            FormAgregar.ShowDialog();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModificarArticulo FormModificar = new ModificarArticulo();
+            FormModificar.ShowDialog();
+        }
+
+        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EliminarArticulo FormEliminar = new EliminarArticulo();
+            FormEliminar.ShowDialog();
+        }
     }
 }
