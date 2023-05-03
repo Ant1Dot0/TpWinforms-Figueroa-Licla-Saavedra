@@ -26,6 +26,7 @@ C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinfor
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.CopyComplete
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+<<<<<<< HEAD
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe.config
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
@@ -43,3 +44,24 @@ C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figue
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.CopyComplete
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
 C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+=======
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe.config
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\Clases.dll
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\Conexiones.dll
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\Clases.pdb
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\bin\Debug\Conexiones.pdb
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csprojAssemblyReference.cache
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.CargaDeArticulos.resources
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.ListadoDeArticulos.resources
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.OrganizART.resources
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.Properties.Resources.resources
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.GenerateResource.cache
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.CoreCompileInputs.cache
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.csproj.CopyComplete
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.exe
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms-Figueroa-Licla-Saavedra.pdb
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.AgregarArticulo.resources
+C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.EliminarArticulo.resources
+>>>>>>> ce03e47538d2e42db4e8806af425d280f5045444
