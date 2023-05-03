@@ -65,3 +65,6 @@ C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Lic
 C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.AgregarArticulo.resources
 C:\Users\escritorio1\Desktop\Repositorio Trabajo Git Hub\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.EliminarArticulo.resources
 >>>>>>> ce03e47538d2e42db4e8806af425d280f5045444
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.AgregarArticulo.resources
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.EliminarArticulo.resources
+C:\Users\figue\Desktop\Tp\tp\TpWinforms-Figueroa-Licla-Saavedra\TpWinforms-Figueroa-Licla-Saavedra\obj\Debug\TpWinforms_Figueroa_Licla_Saavedra.ModificarArticulo.resources
