@@ -21,7 +21,7 @@ namespace Conexiones
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
+            conexion = new SqlConnection("server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
             comando = new SqlCommand();
         }
 
@@ -43,6 +43,27 @@ namespace Conexiones
             {
                 throw ex;
             }
+        }
+
+        public void ejecutarEscritura()
+        {
+            comando.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public void SetearPARAMETROS(string nombre, object value)
+        {
+            comando.Parameters.AddWithValue(nombre, value);
         }
 
         public void cerrarConexion()
