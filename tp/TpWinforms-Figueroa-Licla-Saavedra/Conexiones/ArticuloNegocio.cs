@@ -9,10 +9,11 @@ namespace Conexiones
 {
      public class ArticuloNegocio
     {
+        AccesoDatos datos = new AccesoDatos();
         public List<Articulo> Listar()
         {
             List<Articulo> lista = new List<Articulo>();
-            AccesoDatos datos = new AccesoDatos();
+            
             try
             {
                     datos.setearConsulta("SELECT A.id as ART, CODIGO, NOMBRE, A.Descripcion as DESCRIP, M.ID as MAR, M.Descripcion as MARDE, C.Id as CATE, C.Descripcion as CATEDE, PRECIO FROM ARTICULOS A, MARCAS M, CATEGORIAS C WHERE A.IdMarca = M.id and A.idCategoria = C.id");
@@ -43,5 +44,34 @@ namespace Conexiones
             }
 
         }
+        public void Insertar(Articulo Agregar)
+        {
+
+
+            try
+            {
+                datos.setearConsulta("insert into ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) Values (@Codigo, @Nombre, @Descripcion, @IdMarca, @IdCategoria, @PP)");
+                datos.SetearPARAMETROS("@Codigo", Agregar.Codigo);
+                datos.SetearPARAMETROS("@Nombre", Agregar.Nombre);
+                datos.SetearPARAMETROS("@Descripcion", Agregar.Descripcion);
+                datos.SetearPARAMETROS("@IdMarca", Agregar.Marcas.ID);
+                datos.SetearPARAMETROS("IdCategoria", Agregar.Categorias.ID);
+                datos.SetearPARAMETROS("@PP", Agregar.Precio);
+
+                datos.ejecutarEscritura();
+
+            }
+            catch (Exception Ex)
+            {
+
+                throw Ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
+
+    
 }

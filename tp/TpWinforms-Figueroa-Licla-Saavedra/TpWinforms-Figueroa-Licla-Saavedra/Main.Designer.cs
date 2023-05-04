@@ -32,14 +32,14 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.CargaArticulosStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ListadoArtStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CargaArticulosStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,23 +67,8 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // altasToolStripMenuItem
-            // 
-            this.altasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CargaArticulosStripMenu});
-            this.altasToolStripMenuItem.Name = "altasToolStripMenuItem";
-            this.altasToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
-            this.altasToolStripMenuItem.Text = "Altas";
-            // 
-            // CargaArticulosStripMenu
-            // 
-            this.CargaArticulosStripMenu.Name = "CargaArticulosStripMenu";
-            this.CargaArticulosStripMenu.Size = new System.Drawing.Size(180, 22);
-            this.CargaArticulosStripMenu.Text = "Carga de Articulos";
-            this.CargaArticulosStripMenu.Click += new System.EventHandler(this.CargaArticulosStripMenu_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -96,7 +81,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             // ListadoArtStripMenu
             // 
             this.ListadoArtStripMenu.Name = "ListadoArtStripMenu";
-            this.ListadoArtStripMenu.Size = new System.Drawing.Size(180, 22);
+            this.ListadoArtStripMenu.Size = new System.Drawing.Size(178, 22);
             this.ListadoArtStripMenu.Text = "Listado de Articulos";
             this.ListadoArtStripMenu.Click += new System.EventHandler(this.ListadoArtStripMenu_Click);
             // 
@@ -113,23 +98,36 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             // agregarToolStripMenuItem1
             // 
             this.agregarToolStripMenuItem1.Name = "agregarToolStripMenuItem1";
-            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
             this.agregarToolStripMenuItem1.Text = "Agregar";
             this.agregarToolStripMenuItem1.Click += new System.EventHandler(this.agregarToolStripMenuItem1_Click);
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem.Text = "Modificar";
-            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
-            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
+            // 
+            // altasToolStripMenuItem
+            // 
+            this.altasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CargaArticulosStripMenu});
+            this.altasToolStripMenuItem.Name = "altasToolStripMenuItem";
+            this.altasToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.altasToolStripMenuItem.Text = "Altas";
+            // 
+            // CargaArticulosStripMenu
+            // 
+            this.CargaArticulosStripMenu.Name = "CargaArticulosStripMenu";
+            this.CargaArticulosStripMenu.Size = new System.Drawing.Size(171, 22);
+            this.CargaArticulosStripMenu.Text = "Carga de Articulos";
+            this.CargaArticulosStripMenu.Click += new System.EventHandler(this.CargaArticulosStripMenu_Click);
             // 
             // OrganizART
             // 
@@ -139,6 +137,8 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.ClientSize = new System.Drawing.Size(916, 503);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(932, 542);
+            this.MinimumSize = new System.Drawing.Size(932, 542);
             this.Name = "OrganizART";
             this.Text = "OrganizART";
             this.menuStrip1.ResumeLayout(false);
