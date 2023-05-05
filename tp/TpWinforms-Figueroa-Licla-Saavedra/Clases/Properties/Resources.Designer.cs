@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TpWinforms_Figueroa_Licla_Saavedra.Properties {
+namespace Clases.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TpWinforms_Figueroa_Licla_Saavedra.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Clases.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -37,5 +37,41 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             Modificar.ShowDialog();
             
         }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnEliminarFisico_Click(object sender, EventArgs e)
+        {
+
+            ArticuloNegocio negocio = new ArticuloNegocio();
+            Articulo seleccionado;
+            try
+            {
+                //validacion de confirmacion de eliminar articulo
+                DialogResult respuesta = MessageBox.Show("¿Desea eliminar el articulo seleccionado?","Eliminando",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                if(respuesta == DialogResult.Yes)
+                {
+                    seleccionado = (Articulo)DgvArticulos.CurrentRow.DataBoundItem;
+                    negocio.eliminar(seleccionado.ID);
+
+                }
+                
+                //falta cargar la lista nuevamente
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                throw;
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

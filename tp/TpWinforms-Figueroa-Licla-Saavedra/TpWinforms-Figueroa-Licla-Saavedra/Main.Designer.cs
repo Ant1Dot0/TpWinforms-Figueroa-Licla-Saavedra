@@ -40,7 +40,11 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CargaArticulosStripMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblTitu = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -129,20 +133,56 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.CargaArticulosStripMenu.Text = "Carga de Articulos";
             this.CargaArticulosStripMenu.Click += new System.EventHandler(this.CargaArticulosStripMenu_Click);
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Virtual DJ", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTitulo.Location = new System.Drawing.Point(169, 42);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(552, 26);
+            this.lblTitulo.TabIndex = 1;
+            this.lblTitulo.Text = "Bienvenido al Sistema de Gestión";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TpWinforms_Figueroa_Licla_Saavedra.Properties.Resources.GP;
+            this.pictureBox1.Location = new System.Drawing.Point(228, 168);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(449, 242);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblTitu
+            // 
+            this.lblTitu.AutoSize = true;
+            this.lblTitu.Font = new System.Drawing.Font("Virtual DJ", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitu.Location = new System.Drawing.Point(290, 87);
+            this.lblTitu.Name = "lblTitu";
+            this.lblTitu.Size = new System.Drawing.Size(286, 26);
+            this.lblTitu.TabIndex = 3;
+            this.lblTitu.Text = "ORGANIZARTE F.L.S";
+            // 
             // OrganizART
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(916, 503);
+            this.Controls.Add(this.lblTitu);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximumSize = new System.Drawing.Size(932, 542);
             this.MinimumSize = new System.Drawing.Size(932, 542);
             this.Name = "OrganizART";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrganizART";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,6 +201,9 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblTitu;
     }
 }
 

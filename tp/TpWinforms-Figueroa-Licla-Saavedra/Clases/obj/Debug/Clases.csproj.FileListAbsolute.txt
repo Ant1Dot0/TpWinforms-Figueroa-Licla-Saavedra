@@ -9,3 +9,11 @@ C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinfor
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.dll
 C:\Users\JoseEdu\Desktop\proyecto\TpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.pdb
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\bin\Debug\Clases.dll
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\bin\Debug\Clases.pdb
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.Properties.Resources.resources
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csproj.GenerateResource.cache
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.dll
+C:\Users\escritorio1\Desktop\REPO GIT HUB TP\tpWinforms-Figueroa-Licla-Saavedra\tp\TpWinforms-Figueroa-Licla-Saavedra\Clases\obj\Debug\Clases.pdb

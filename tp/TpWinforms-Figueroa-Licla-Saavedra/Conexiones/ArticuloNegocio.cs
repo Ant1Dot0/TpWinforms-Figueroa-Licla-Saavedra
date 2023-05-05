@@ -132,6 +132,27 @@ namespace Conexiones
         }
         
 
+        public void eliminar(int ID)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setearConsulta("delete from ARTICULOS where ID = @id");
+                datos.SetearPARAMETROS("@id", ID);
+                datos.ejecutarEscritura();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+
+
+
+        }
+
      }
 
     
