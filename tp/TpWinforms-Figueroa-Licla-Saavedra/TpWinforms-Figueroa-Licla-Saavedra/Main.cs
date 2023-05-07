@@ -35,6 +35,14 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             FormAgregar.ShowDialog();
         }
 
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

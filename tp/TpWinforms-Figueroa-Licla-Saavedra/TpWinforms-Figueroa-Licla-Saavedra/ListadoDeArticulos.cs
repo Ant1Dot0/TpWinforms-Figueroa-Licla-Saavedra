@@ -21,7 +21,10 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
 
         private void ListadoDeArticulos_Load(object sender, EventArgs e)
         {
-            DgvArticulos.DataSource = new ArticuloNegocio().Listar();
+            ActualizarGrid();
+            
+
+
         }
 
         private void DgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -35,7 +38,66 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             Seleccionado = (Articulo)DgvArticulos.CurrentRow.DataBoundItem;
             AgregarArticulo Modificar = new AgregarArticulo(Seleccionado);
             Modificar.ShowDialog();
-            
+            ActualizarGrid();
+
         }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            AgregarArticulo agregar = new AgregarArticulo();
+            agregar.ShowDialog();
+            ActualizarGrid();
+        }
+
+        private void BtnEliminarFisico_Click(object sender, EventArgs e)
+        {
+            
+            ArticuloNegocio negocio = new ArticuloNegocio();
+            Articulo seleccionado;
+            try
+            {
+                //validacion de confirmacion de eliminar articulo
+                DialogResult respuesta = MessageBox.Show("¿Desea eliminar el articulo seleccionado?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes)
+                {
+                    seleccionado = (Articulo)DgvArticulos.CurrentRow.DataBoundItem;
+                    negocio.eliminar(seleccionado.ID);
+
+                }
+
+                ActualizarGrid();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                throw;
+            }
+        }
+
+        private List<Articulo> Aux;
+
+        private void ActualizarGrid()
+        {
+            try
+            {
+                ArticuloNegocio articulo = new ArticuloNegocio();
+
+                Aux = articulo.Listar();
+                DgvArticulos.DataSource = Aux;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+          
+
+
+        }
+
+
+
     }
+
 }

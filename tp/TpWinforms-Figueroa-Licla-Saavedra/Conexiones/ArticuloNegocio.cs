@@ -71,7 +71,93 @@ namespace Conexiones
                 datos.cerrarConexion();
             }
         }
-    }
+        public Articulo BuscarArticuloid(Articulo articulo)
+        {
+            try
+            {
+                datos.setearConsulta("SELECT Id, CODIGO, NOMBRE, Descripcion, IdMarca, IdCategoria, PRECIO FROM ARTICULOS WHERE CODIGO = " + articulo.Codigo);
+                datos.ejecutarLectura();
+                if(datos.Lector.Read())
+                { 
+                    articulo.ID = (int)datos.Lector["ART"];
+                    articulo.Codigo = (string)datos.Lector["CODIGO"];
+                    articulo.Nombre = (string)datos.Lector["NOMBRE"];
+                    articulo.Descripcion = (string)datos.Lector["DESCRIP"];
+                    articulo.Marcas = new Marcas();
+                    articulo.Marcas.Marca = (string)datos.Lector["MARDE"];
+                    articulo.Marcas.ID = (int)datos.Lector["MAR"];
+                    articulo.Categorias = new Categorias();
+                    articulo.Categorias.Categoria = (string)datos.Lector["CATEDE"];
+                    articulo.Categorias.ID = (int)datos.Lector["CATE"];
+                    articulo.Precio = (decimal)datos.Lector["PRECIO"];
+                }
+                else
+                {
+                    articulo.ID = 0;
+                }
+                return articulo;
+                
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+        public void modificar(Articulo articulo)
+         {
+            try
+            {
+                datos.setearConsulta("update ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idmarca, IdCategoria = @idcategoria, Precio = @precio where Id " + articulo.ID);
+                datos.SetearPARAMETROS("@codigo", articulo.Codigo);
+                datos.SetearPARAMETROS("@nombre", articulo.Nombre);
+                datos.SetearPARAMETROS("@descripcion", articulo.Descripcion);
+                datos.SetearPARAMETROS("@idmarca", articulo.Marcas);
+                datos.SetearPARAMETROS("@idcategoria", articulo.Categorias);
+                datos.SetearPARAMETROS("@precio", articulo.Precio);
+
+                datos.ejecutarEscritura();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+        
+
+        public void eliminar(int ID)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setearConsulta("delete from ARTICULOS where ID = @id");
+                datos.SetearPARAMETROS("@id", ID);
+                datos.ejecutarEscritura();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+     }
 
     
 }
