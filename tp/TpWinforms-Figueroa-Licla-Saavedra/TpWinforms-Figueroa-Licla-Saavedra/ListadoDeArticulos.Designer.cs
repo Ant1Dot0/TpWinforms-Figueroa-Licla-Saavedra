@@ -39,7 +39,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnLimpFiltros = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulos)).BeginInit();
@@ -59,7 +59,6 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.DgvArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvArticulos.Size = new System.Drawing.Size(840, 248);
             this.DgvArticulos.TabIndex = 0;
-            this.DgvArticulos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvArticulos_CellContentClick);
             // 
             // BtnAgregar
             // 
@@ -137,7 +136,6 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Categoria:";
-           
             // 
             // label3
             // 
@@ -149,15 +147,16 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.label3.TabIndex = 9;
             this.label3.Text = "Ordenar por:";
             // 
-            // button4
+            // BtnLimpFiltros
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(723, 16);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 46);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Limpiar filtros";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BtnLimpFiltros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpFiltros.Location = new System.Drawing.Point(723, 16);
+            this.BtnLimpFiltros.Name = "BtnLimpFiltros";
+            this.BtnLimpFiltros.Size = new System.Drawing.Size(94, 46);
+            this.BtnLimpFiltros.TabIndex = 10;
+            this.BtnLimpFiltros.Text = "Limpiar filtros";
+            this.BtnLimpFiltros.UseVisualStyleBackColor = true;
+            this.BtnLimpFiltros.Click += new System.EventHandler(this.button4_Click);
             // 
             // label4
             // 
@@ -184,7 +183,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.ClientSize = new System.Drawing.Size(1101, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BtnLimpFiltros);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -219,7 +218,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnLimpFiltros;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
     }

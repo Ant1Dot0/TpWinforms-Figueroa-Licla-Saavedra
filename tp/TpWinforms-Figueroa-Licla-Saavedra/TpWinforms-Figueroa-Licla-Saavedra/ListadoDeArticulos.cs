@@ -21,15 +21,41 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
 
         private void ListadoDeArticulos_Load(object sender, EventArgs e)
         {
-            ActualizarGrid();
+            try
+            {
+                ActualizarGrid();
+                ListadoCat listadoCat = new ListadoCat();
+                ListadoMarcas listadoMarcas = new ListadoMarcas();
+
+                CbmCat.DataSource = listadoCat.Listar();
+                CbmCat.ValueMember = "Id";
+                CbmCat.DisplayMember = "Categoria";
+                CbmMarca.DataSource = listadoMarcas.Listar();
+                CbmMarca.ValueMember = "Id";
+                CbmMarca.DisplayMember = "Marca";
+                CbmOrdenar.Items.Add("Menor precio");
+                CbmOrdenar.Items.Add("Mayor precio");
+                CbmOrdenar.Items.Add("A - Z");
+                CbmOrdenar.Items.Add("Z - A");
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
             
 
 
         }
 
-        private void DgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
+        private void BorrarCB()
+        {
+            CbmCat.SelectedIndex = -1;
+            CbmMarca.SelectedIndex = -1;
+            CbmOrdenar.SelectedIndex = -1;
+            
         }
 
         private void BtnModificar_Click(object sender, EventArgs e)
@@ -96,8 +122,10 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
 
         }
 
-
-
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BorrarCB();
+        }
     }
 
 }
