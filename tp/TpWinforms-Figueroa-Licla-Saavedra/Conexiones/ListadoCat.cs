@@ -7,7 +7,7 @@ using Clases;
 
 namespace Conexiones
 {
-    class ListadoCat
+    public class ListadoCat
     {
         AccesoDatos datos = new AccesoDatos();
         public List<Categorias> Listar()

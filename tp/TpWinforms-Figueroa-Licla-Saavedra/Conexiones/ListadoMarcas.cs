@@ -7,7 +7,7 @@ using Clases;
 
 namespace Conexiones
 {
-    class ListadoMarcas
+    public class ListadoMarcas
     {
         AccesoDatos datos = new AccesoDatos();
         public List<Marcas> Listar()
