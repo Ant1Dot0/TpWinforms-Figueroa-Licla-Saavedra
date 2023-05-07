@@ -126,6 +126,28 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
         {
             BorrarCB();
         }
+
+
+        //Filtro Rapido por medio de Nombre o Id
+        private void txbCodigoNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            List<Articulo> listafiltrada;
+            string filtro = txbCodigoNombre.Text;
+
+            if (filtro != "")
+            {
+                listafiltrada = Aux.FindAll(x => x.Nombre.ToUpper().Contains(filtro.ToUpper()) || x.Codigo.ToUpper().Contains(filtro.ToUpper()) ) ;
+            }
+            else
+            {
+                listafiltrada = Aux;
+            }
+            
+
+            DgvArticulos.DataSource = null;
+            DgvArticulos.DataSource = listafiltrada;
+                
+        }
     }
 
 }

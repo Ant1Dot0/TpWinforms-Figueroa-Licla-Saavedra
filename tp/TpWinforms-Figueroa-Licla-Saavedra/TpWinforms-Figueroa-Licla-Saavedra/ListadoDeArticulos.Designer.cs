@@ -41,7 +41,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.label3 = new System.Windows.Forms.Label();
             this.BtnLimpFiltros = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbCodigoNombre = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,12 +168,13 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.label4.TabIndex = 11;
             this.label4.Text = "Codigo o Nombre:";
             // 
-            // textBox1
+            // txbCodigoNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(273, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(414, 20);
-            this.textBox1.TabIndex = 12;
+            this.txbCodigoNombre.Location = new System.Drawing.Point(273, 29);
+            this.txbCodigoNombre.Name = "txbCodigoNombre";
+            this.txbCodigoNombre.Size = new System.Drawing.Size(414, 20);
+            this.txbCodigoNombre.TabIndex = 12;
+            this.txbCodigoNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbCodigoNombre_KeyPress);
             // 
             // ListadoDeArticulos
             // 
@@ -181,7 +182,7 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1101, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbCodigoNombre);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.BtnLimpFiltros);
             this.Controls.Add(this.label3);
@@ -220,6 +221,6 @@ namespace TpWinforms_Figueroa_Licla_Saavedra
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtnLimpFiltros;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbCodigoNombre;
     }
 }

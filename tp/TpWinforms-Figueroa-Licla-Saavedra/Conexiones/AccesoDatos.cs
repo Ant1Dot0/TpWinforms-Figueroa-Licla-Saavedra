@@ -23,10 +23,10 @@ namespace Conexiones
         {
             // -DESCOMENTAR LINEA DE CODIGO DE BASE DE DATOS A UTILIZAR-
             
-            conexion = new SqlConnection("server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
+           // conexion = new SqlConnection("server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
            
             //CONEXION BASE DATOS SAAVEDRA RODRIGO -
-            //conexion = new SqlConnection("server= ESCRITORIO\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
+            conexion = new SqlConnection("server= ESCRITORIO\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
 
             
             comando = new SqlCommand();
